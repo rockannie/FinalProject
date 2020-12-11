@@ -78,6 +78,7 @@ void loop() {
           bitClear(leds, ledvalues[counter]);
           updateShiftRegister();
           counter++;
+          delay(1000);
       }
    }
 } 
